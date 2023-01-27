@@ -202,6 +202,5 @@ resource "aws_key_pair" "hashicat" {
 }
 
 module "s3_bucket" {
-  source  = "cloudposse/s3-bucket/aws"
-  version = "3.0.0"
+  source = "app.terraform.io/tf-workshop-dw/s3-bucket/aws"
 }
